@@ -9,7 +9,7 @@
         "id": 1,
         "title": "TASK TWO",
         "description": "lorem ipsum",
-        "done": true
+        "done": false
     },
     {
         "id": 2,
