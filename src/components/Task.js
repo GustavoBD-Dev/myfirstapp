@@ -1,7 +1,8 @@
 import React, {Component} from "react";
 import './Task.css'
-class Task extends Component {
+import PropTypes from 'prop-types'
 
+class Task extends Component {
 
     StyleCompleted() {
         return {
@@ -10,7 +11,6 @@ class Task extends Component {
             textDecoration: this.props.task.done ? 'line-through' : 'none' 
         }
     }
-
 
     render () {
 
@@ -27,6 +27,10 @@ class Task extends Component {
             </button>
         </p>
     }
+}
+
+Task.propTypes = {
+    task: PropTypes.object.isRequired
 }
 
 const btnDelete = {
