@@ -1,19 +1,19 @@
 [
     {
         "id": 1,
-        "title": "task one",
+        "title": "TASK ONE",
         "description": "lorem ipsum",
         "done": false
     },
     {
         "id": 2,
-        "title": "task two",
+        "title": "TASK TWO",
         "description": "lorem ipsum",
-        "done": false
+        "done": true
     },
     {
         "id": 3,
-        "title": "task three",
+        "title": "TRASK THREE",
         "description": "lorem ipsum",
         "done": false
     }
