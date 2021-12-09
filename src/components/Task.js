@@ -16,8 +16,8 @@ class Task extends Component {
 
         const {task} = this.props
 
-        return <p className="blueviolet">
-            <h3 style={this.StyleCompleted()}>{task.title}</h3>
+        return <div className="blueviolet">
+            <p style={this.StyleCompleted()}>{task.title}</p>
             {task.description} - 
             {task.done} - 
             {task.id}
@@ -25,7 +25,7 @@ class Task extends Component {
             <button style={btnDelete}>
                 X
             </button>
-        </p>
+        </div>
     }
 }
 
